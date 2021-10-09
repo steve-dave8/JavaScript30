@@ -26,15 +26,18 @@ html {
 }
 
 .photo {
-  width: 100%;
-  float: left;
+  transform: scaleX(-1);
+  height: 90vh;
+  margin: 0 auto;
+  display: block;
 }
 
 .player {
   position: absolute;
   top: 20px;
   right: 20px;
-  width:200px;
+  width: 200px;
+  transform: scaleX(-1);
 }
 
 /*
