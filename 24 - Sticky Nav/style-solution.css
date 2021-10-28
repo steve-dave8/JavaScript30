@@ -86,3 +86,13 @@ nav a {
   transition: all 0.2s;
   text-transform: uppercase;
 }
+
+/* Added code: */
+
+li.reveal {
+  max-width: 500px;
+}
+
+nav.fixed {
+  position: fixed;
+}
